@@ -1,0 +1,24 @@
+
+@import url('alapstilus.css');
+
+body {
+	font-size:2em;		
+	
+}
+
+a#nagybetu {display: none;}		
+a#normalbetu {display: block;}	
+
+header, main, footer, #header, #tartalom, #footer {
+	width:100%;			
+	max-width:1700px;	
+	}
+	
+#gyengenlato { width:2000px; right:500px;}		
+
+			
+#elet  aside, #elet  #aside {
+	float:none;				
+	width:90%;				
+	margin:0;			
+}
