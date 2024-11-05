@@ -26,6 +26,12 @@ p {
 	width: 100%;
 }
 
+
+.or{
+	text-align: center;
+	font-weight: bold;
+	margin: 30px;
+}
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
@@ -133,7 +139,7 @@ a#normalbetu {display: none;}
 
 #elet  aside, #elet #aside {
   float:center;				
-  width:350px;				
+  width:300px;				
   font-style:italic;		
   border:1px solid #999;		
   background-color:#95AD73;		
@@ -144,26 +150,44 @@ a#normalbetu {display: none;}
 }
 
 #elet  aside p, #elet, #aside p {
-	text-align:justify; 		
 	font-weight:bold;		
 	font-size:90%;			
 	}
+
+.free{		
+  	width:350px;				
+  	font-style:italic;		
+  	border:1px solid #999;		
+  	background-color:#95AD73;		
+  	padding:10px;					
+  	margin:30px;		
+  	border-radius:5px;			
+  	box-shadow:10px 10px 5px lightgray; 
+}
+
+.description{
+	font-size: 1.2em;
+	margin-left: 30px;
+}
+
 q {
 	text-align:justify; 	
 	display:block}			
 	
+h3{
+	text-align: center;
+}
 
 
-
-article#kasztok table {
+table {
 	border-collapse:collapse;					
 	border: double 3px gray;					
 	margin:0 auto;					
 }
 
-article#kasztok table th {background-color:#95AD73;}  
+table th {background-color:#95AD73;}  
 
-article#kasztok table td,article#kasztok table th {
+table td,article#kasztok table th {
 	border: 1px solid gray;					
 	padding: 5px;					
 }
