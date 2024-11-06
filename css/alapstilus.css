@@ -18,6 +18,18 @@ h1,h2 {
 p {
  text-align:justify;
  }
+
+
+ #myHeading img {
+	float:left;
+	margin-right:10px;
+	position: relative;
+  }
+  #myHeading h1 {
+	margin-right:10px;
+	position: relative;
+	top: 10px;
+  }
  
 .center {
 	display: block;
@@ -103,7 +115,7 @@ footer p, #footer p {text-align:center}
 
 
 header nav, #header div {
-	background-color:#95AD73;
+	background-color:#b4cf8f;
 	padding:5px 5px 5px 10px;
 	margin-left:-10px;
 	margin-right:-10px;
@@ -132,17 +144,14 @@ header nav a:hover:not(.active), #header div a:hover:not(.active) {background-co
 .active {font-weight: bold; text-transform:uppercase; font-size: 1.2em;}
 
 
-a#normalbetu {display: none;}		
-
-
-
+	
 
 #elet  aside, #elet #aside {
   float:center;				
   width:300px;				
   font-style:italic;		
   border:1px solid #999;		
-  background-color:#95AD73;		
+  background-color:#b4cf8f;		
   padding:10px;					
   margin:auto;		
   border-radius:5px;			
@@ -158,7 +167,7 @@ a#normalbetu {display: none;}
   	width:350px;				
   	font-style:italic;		
   	border:1px solid #999;		
-  	background-color:#95AD73;		
+  	background-color:#b4cf8f;		
   	padding:10px;					
   	margin:30px;		
   	border-radius:5px;			
@@ -170,9 +179,7 @@ a#normalbetu {display: none;}
 	margin-left: 30px;
 }
 
-q {
-	text-align:justify; 	
-	display:block}			
+		
 	
 h3{
 	text-align: center;
@@ -185,9 +192,11 @@ table {
 	margin:0 auto;					
 }
 
-table th {background-color:#95AD73;}  
+table th {background-color:#b4cf8f;
+	padding: 5px;
+	border: 1px solid gray;}  
 
-table td,article#kasztok table th {
+table td, table th {
 	border: 1px solid gray;					
 	padding: 5px;					
 }
@@ -214,6 +223,5 @@ header, main, footer, #header, #tartalom, #footer {
 nav, #header div {display:none}		
 
 a:after { content: " (" attr(href) ")";}  
-
-#kasztok {page-break-before:always}  
+ 
 }
