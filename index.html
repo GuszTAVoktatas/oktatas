@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/alapstilus.css" title="normal">
+	<script type="text/javascript" src="scripts/dropdown.js"></script>
 </head>
 <body>
 	<header>
@@ -13,32 +14,33 @@
 			<figure><img src="gusztav.ico" height="50"></figure>
 	<h1>GuszTÁV oktatás - Klauval</h1>
 </div>
-	<nav id="oldalmenu">
-	   <ul>
-		 <li><a class="active" href="index.html">Főoldal</a></li>
-		 <li><div class="dropdown">
-  <a>Orvosi nyelvtanfolyamok</a>
-  <div class="dropdown-content">
-    <a href="profex.html">ONLINE Profex C1 egészségügyi szaknyelvi nyelvvizsga felkészítő</a>
-    <a href="tolmacs.html">ONLINE egészségügyi szakfordító-tolmács államvizsga felkészülés</a>
-    <a href="egeszsegugyi.html">ONLINE általános egészségügyi angol nyelvfejlesztés</a>
-  </div></li>
-  <li><div class="dropdown">
-	<a>Érettségi felkészítés</a>
-	<div class="dropdown-content">
-	  <a href="angolerettsegi.html">ONLINE angol emelt szintű érettségi felkészítés - szóbeli</a>
+	<nav>
+	   <ul class="navbar">
+		 <li><button onclick="location.href='index.html'" class="dropbtn">Főoldal</button></li>
+		 <li><div class="dropdown1">
+			<button onclick="myFunction1()" class="dropbtn">Orvosi nyelvtanfolyamok</button>
+			<div id="myDropdown1" class="dropdown-content">
+				<a href="profex.html">ONLINE Profex C1 egészségügyi szaknyelvi nyelvvizsga felkészítő</a>
+			  	<a href="tolmacs.html">ONLINE egészségügyi szakfordító-tolmács államvizsga felkészülés</a>
+			  	<a href="egeszsegugyi.html">ONLINE általános egészségügyi angol nyelvfejlesztés</a>
+			</div></li>
+  <li><div class="dropdown1">
+	<button onclick="myFunction2()" class="dropbtn">Érettségi felkészítés</button>
+	<div id="myDropdown2" class="dropdown-content">
+		<a href="angolerettsegi.html">ONLINE angol emelt szintű érettségi felkészítés - szóbeli</a>
 	</div></li>
-	<li><a href="egyeb.html">Egyéb oktatás</a></li>
-		 <li><a href="sajat.html">Rólam</a></li>
+	<li><button onclick="location.href='egyeb.html'" class="dropbtn">Egyéb oktatás</button></li>
+		 <li><button onclick="location.href='sajat.html'" class="dropbtn">Rólam</button></li>
 	   </ul>
+	  </div>
 	</nav>
 </header>
 <main id="tartalom">
-	<table>
+	<table class="kezdo_tabla">
 		
 		<tr>
 			<th><figure>
-				<img src="foprofil.png" width="150" title="Kép" alt="Én">
+				<img  class="fokep" src="foprofil.png" title="Kép" alt="Én">
 			</figure></th>
 			<th>
 				<strong>Illés Klaudia</strong><br><br>
@@ -57,7 +59,7 @@
 	
 	<p>Korábbi munkatapasztalatom a nemzetközi kapcsolatok, a relokáció, a vendéglátás és a zenetudományok területén segítenek abban, hogy hétköznapi és hivatalos kontextusban egyaránt segítsek a nyelvelsajátításban.</p>
 		
-	<p>Egészségügyi szakfordító-tolmácsként segíthetek téged a szaknyelvi angol nyelvtudásod elmélyítésében, egy-egy konferenciára való felkészülésben, szakirodalom feldolgozásában, külföldi betegekkel való interakcióban vagy.</p>
+	<p>Egészségügyi szakfordító-tolmácsként segíthetlek téged a szaknyelvi angol nyelvtudásod elmélyítésében, egy-egy konferenciára való felkészülésben, szakirodalom feldolgozásában, külföldi betegekkel való interakcióban.</p>
 		
 	<p>Téged mi motivál? Miben segíthetek?</p>
 
