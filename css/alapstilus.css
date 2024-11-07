@@ -244,6 +244,9 @@ header nav a:hover:not(.active), #header div a:hover:not(.active) {background-co
 .kezdo_tabla{
 	width: 60%;
 }
+.promo{
+	width: 100%;
+}
 	
 h3{
 	text-align: center;
