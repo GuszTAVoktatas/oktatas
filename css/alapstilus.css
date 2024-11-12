@@ -239,7 +239,7 @@ header nav a:hover:not(.active), #header div a:hover:not(.active) {background-co
 
 .kep2{
 	min-width: 110px;
-	max-width: 80%;
+	max-width: 70%;
 }
 .kezdo_tabla{
 	width: 60%;
@@ -256,7 +256,8 @@ h3{
 table {
 	border-collapse:collapse;					
 	border: double 3px gray;					
-	margin:0 auto;					
+	margin:0 auto;	
+	text-align:center;				
 }
 
 table th {background-color:#b4cf8f;
