@@ -15,6 +15,35 @@ h1,h2 {
     font-family: 'Calibri', sans-serif;
 }
 
+/* Megcélozza az összes 'a' (link) elemet, ami a 'header' elemen belül van */
+header a {
+    text-decoration: none; /* Eltávolítja az aláhúzást */
+    color: black;          /* Fekete színt állít be */
+}
+
+/* Fontos: A linkeknek vannak különböző állapotai is, amiket külön is érdemes beállítani,
+   hogy biztosan fekete maradjon, és ne változzon meg, ha pl. már meglátogatták
+   az oldalt, vagy ráviszik az egeret. */
+
+header a:link {
+    text-decoration: none;
+    color: black;
+}
+
+header a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    text-decoration: none; /* Ha ráviszi az egeret */
+    color: black;
+}
+
+header a:active {
+    text-decoration: none; /* Kattintás pillanatában */
+    color: black;
+}
 p {
  text-align:justify;
  }
@@ -26,9 +55,7 @@ p {
 	position: relative;
   }
   #myHeading h1 {
-	margin-right:10px;
-	position: relative;
-	top: 10px;
+	
   }
  
 .center {
